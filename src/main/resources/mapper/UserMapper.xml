@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.coderzhx.blog2.mapper.UserMapper">
+
+    <select id="checkUser" resultType="User" parameterType="String">
+        select id,nickname,username,password from t_user where username=#{username}
+    </select>
+<!--    关于我文章-->
+    <select id="aboutme" resultType="String">
+        select description from t_user
+    </select>
+</mapper>

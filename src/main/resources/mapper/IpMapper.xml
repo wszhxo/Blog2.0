@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.coderzhx.blog2.mapper.IpMapper">
+<!--清空表-->
+    <delete id="deleteVisitCount">
+        delete  from t_visitCount
+    </delete>
+
+    <insert id="addVisitCount" >
+        insert into t_visitCount values (#{ip},#{count})
+    </insert>
+    <select id="getVisitCount" resultType="RequestLog">
+        select ip,ipcount from t_visitCount
+    </select>
+</mapper>

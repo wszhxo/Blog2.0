@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.coderzhx.blog2.mapper.BlogMapper">
+
+
+    <resultMap id="blogMap" type="Blog">
+        <result column="id" property="id"/>
+        <result column="commentabled" property="commentabled"/>
+        <result column="content" property="content"/>
+        <result column="summary" property="summary"/>
+        <result column="title" property="title"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="cover" property="cover"/>
+        <result column="top_time" property="topTime"/>
+        <result column="published" property="published"/>
+        <result column="share_statement" property="shareState"/>
+        <result column="views" property="views"/>
+        <result column="lunbo" property="lunbo"/>
+        <result column="istop" property="istop"/>
+        <association property="typeId" javaType="cn.coderzhx.blog2.po.Type">
+            <result column="type_id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+        <collection property="tags" column="id" select="cn.coderzhx.blog2.mapper.TagMapper.listTagByBlogId"/>
+    </resultMap>
+
+    <!--列出博客-->
+    <select id="listBlog" resultMap="blogMap" parameterType="cn.coderzhx.blog2.vo.PageBean">
+        select b.id,b.title,b.summary,b.cover,b.update_time,b.views,b.istop,b.top_time,c.name from t_blog b  LEFT JOIN t_type c  ON b.type_id=c.id
+         <where>
+             <if test="typeId!=null">
+                 and b.type_id=#{typeId}
+             </if>
+             <if test="title!=null and title!=''">
+                 and b.title like '%${title}%'
+             </if>
+             <if test="published!=null ">
+                 and b.published =#{published}
+             </if>
+             <if test="lunbo!=null ">
+                 and b.lunbo =#{lunbo}
+             </if>
+         </where>
+         order by top_time desc,update_time desc
+            limit #{index},#{pageSize};
+    </select>
+
+    <!--列出博客,,根据分类id获取所有文章封装进Type类中-->
+    <select id="listBlogByTypeId" resultMap="blogMap" parameterType="Integer">
+        select b.id,b.title,b.summary,b.cover,b.update_time,b.views,b.istop,b.top_time,c.name from t_blog b  LEFT JOIN t_type c  ON b.type_id=c.id
+        <where>
+            <if test="typeId!=-1">
+                and b.type_id=#{id}
+            </if>
+        </where>
+        order by top_time desc,update_time desc
+    </select>
+<!--轮播文章-->
+<select id="listLunboBlog" resultType="Blog" >
+    select id,title,cover from t_blog where lunbo=1
+</select>
+
+    <!--根据标签列出博客,标签唯一,文章重复的查询结果 把标签封装进Tags里-->
+    <select id="listBlogByTagId" resultMap="blogMap" parameterType="Integer">
+        SELECT d.* ,e.name from t_tag e RIGHT JOIN
+        (select b.id,b.title,b.summary,b.cover,b.update_time,b.views,b.istop,b.top_time,c.tags_id
+        from t_blog b  right JOIN t_blog_tags c  ON b.id=c.blogs_id
+        <where>
+            <if test="tagId!=-1">
+                and tags_id=#{id}
+            </if>
+        </where>
+       ) d ON d.tags_id=e.id
+        order by top_time desc,update_time desc
+    </select>
+
+    <!--查询文章数量-->
+    <select id="countBlog" resultType="Long" parameterType="cn.coderzhx.blog2.vo.PageBean">
+        select count(id) from t_blog
+        <where>
+            <if test="typeId!=null">
+                and type_id=#{typeId}
+            </if>
+            <if test="title!=null and title!=''">
+                and title like '%${title}%'
+            </if>
+            <if test="lunbo!=null ">
+                and lunbo =#{lunbo}
+            </if>
+            <if test="published!=null ">
+                and published =#{published}
+            </if>
+        </where>
+    </select>
+    <!--指定数量推荐文章-->
+    <select id="listRecommendBlogTop" resultMap="blogMap"  parameterType="Integer">
+        select title,id from t_blog  order by views desc
+            <if test="size!=null and size!=''">
+                limit #{size}
+            </if>
+    </select>
+    <!--id获取文章-->
+    <select id="getBlogById" resultMap="blogMap"  parameterType="Long">
+        select b.* ,c.* from t_blog b left join t_type c on b.id=c.id where b.id=#{id}
+    </select>
+
+    <!--获取文章包含的年份月份-->
+    <select id="getYearAndMonth" resultType="String" >
+        select DATE_FORMAT(b.update_time,'%Y-%m') as year from t_blog b group by DATE_FORMAT(b.update_time,'%Y-%m') order by year desc
+    </select>
+    <!--根据年月获取文章-->
+    <select id="findByYear" resultMap="blogMap"  parameterType="String">
+        select id,title,update_time from t_blog where DATE_FORMAT(update_time,'%Y-%m') = #{yearMonth}
+    </select>
+<!--添加文章-->
+    <insert id="saveBlog" parameterType="blog" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT INTO t_blog(cover,title,summary,content,create_time,update_time,type_id,commentabled,share_statement,views,published,lunbo,istop)
+         VALUES(#{cover},#{title},#{summary},#{content},NOW(),NOW(),#{typeId.id},#{commentabled},#{shareState},#{views},#{published},#{lunbo},#{istop})
+    </insert>
+
+<!--    修改文章-->
+    <update id="updateBlog" parameterType="blog" >
+  update t_blog set cover=#{cover},
+            title=#{title},
+            summary=#{summary},
+            content=#{content},
+            update_time=NOW(),
+            type_id=#{typeId.id},
+            commentabled=#{commentabled},
+            share_statement=#{shareState},
+            views=#{views},
+            published=#{published},
+            lunbo=#{lunbo},
+            istop=#{istop}
+             WHERE id=#{id}
+    </update>
+<!--删除文章-->
+<delete id="deleteBlog" parameterType="Long">
+    delete from t_blog where id=#{id}
+</delete>
+<!--添加文章访问次数-->
+<update id="addViewsToDateBase" >
+    update t_blog set views=#{count}+views where id=#{blogId}
+</update>
+
+
+
+</mapper>

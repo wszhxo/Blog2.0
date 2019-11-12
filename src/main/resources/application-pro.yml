@@ -1,0 +1,40 @@
+server:
+  port: 8083
+  max-http-header-size: 10000000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog_v2?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: wszhxo
+  # 热部署
+  devtools:
+    restart:
+      enabled: true
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: HTML5
+
+# 日志级别,以及保存位置
+logging:
+  level:
+    root: warm
+    com.lrm: info
+  file: log/blog-dev.log
+
+
+# linux路径
+lucene:
+  path: /usr/lunece
+
+# 上传文件存放
+file:
+  uploadfolder: /usr/upload
+# 实体类路径,以及接口实现类
+mybatis:
+  type-aliases-package: cn.coderzhx.blog2.po
+  mapper-locations: classpath:mapper/*.xml
+
+

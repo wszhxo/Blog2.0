@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:fragment="head(title)">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title th:replace="${title}">博客详情</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+<!--  <link rel="stylesheet" href="../static/css/semantic.min.css" th:href="@{/css/semantic.min.css}">-->
+  <link rel="stylesheet" href="../static/css/typo.css" th:href="@{/css/typo.css}">
+  <link rel="stylesheet" href="../static/css/animate.css" th:href="@{/css/animate.css}">
+  <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">
+  <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">
+
+<!--技能进度条-->
+  <link rel="stylesheet" type="text/css" th:href="@{/css/demo.css}">
+
+  <link rel="stylesheet"  th:href="@{/css/font-awesome.css}">
+  <link rel="stylesheet"  th:href="@{/css/style.css}" >
+  <script  th:src="@{/js/jquery-1.11.0.min.js}"></script>
+  <link rel="stylesheet" href="/css/me.css" th:href="@{/css/blue.css}" id="cssfile">
+  <script th:src="@{/js/scrollReveal.js}"></script>
+<!--百度统计-->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cfe7728851ca6a336d3d6845fb244f55";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+  <!--  换肤-->
+  <script>
+    window.onload = function () {
+      // 获得按钮
+      var blue = document.getElementById('blue');
+      //获得link
+      var cssfile = document.getElementById('cssfile');
+      var i=0;
+      blue.onclick = function () {
+        if (i % 3 == 0) {
+          cssfile.href = '/css/green.css';
+        } else if (i % 3 == 1) {
+          cssfile.href = '/css/me.css';
+        } else {
+          cssfile.href = '/css/blue.css';
+        }
+        i++;
+        i = i % 3;
+      }
+    }
+  </script>
+<!--  延迟加载效果-->
+  <script>
+    window.scrollReveal = new scrollReveal({reset:true});
+  </script>
+  <style>
+    /*简介的css*/
+    .news_about {
+      color: #888;
+      width: 85%;
+      border: 1px solid #F3F3F3;
+      padding: 10px;
+      margin: 20px auto 15px auto;
+      line-height: 23px;
+      background: none repeat 0 0 #F6F6F6;
+    }
+  </style>
+</head>
+<body>
+
+
+<!--导航-->
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" id="nav1">
+  <div class="ui container">
+    <div class="ui inverted secondary stackable menu">
+      <h2 class="ui grey header item" id="logo">  coderzhx</h2>
+      <a href="#" th:href="@{/}" class="m-item item m-mobile-hide " th:classappend="${n==1} ? 'active'"><i class="mini home icon"></i>首页</a>
+      <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="mini idea icon"></i>分类</a>
+      <a href="#" th:href="@{/tags/-1}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="mini tags icon"></i>标签</a>
+      <a href="#" th:href="@{/archives}" class="m-item item m-mobile-hide" th:classappend="${n==4} ? 'active'"><i class="mini clone icon"></i>归档</a>
+      <a href="#" th:href="@{/about}" class="m-item item m-mobile-hide" th:classappend="${n==5} ? 'active'"><i class="mini info icon"></i>关于我</a>
+      <a href="#" id="blue" class="m-item item m-mobile-hide"><i class="mini adjust icon"></i>换肤</a>
+      <div class="right m-item item m-mobile-hide">
+        <form name="search" action="#" th:action="@{/search}" method="GET" target="_blank">
+          <div class="ui icon inverted transparent input m-margin-tb-tiny">
+            <input type="text" name="query" placeholder="Search...." th:value="${query}">
+            <i onclick="document.forms['search'].submit()" class="search link icon"></i>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+    <i class="sidebar icon"></i>
+  </a>
+</nav>
+
+
+
+<!--底部footer-->
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+  <div class="ui center aligned container">
+    <div class="ui inverted divided stackable grid">
+      <div class="three wide column">
+        <div class="ui inverted link list">
+          <div class="item">
+            <img src="../static/images/wechat.jpg" th:src="@{/images/weixinico.png}"  class="ui rounded image" alt="" style="width: 110px">
+          </div>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+        <div class="ui inverted link list">
+          <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=cuber.zhx@qq.com" class="item m-text-thin" >Email：cuber.zhx@qq.com</a>
+          <a href="#" class="item m-text-thin" >QQ：2500621077</a>
+        </div>
+      </div>
+      <div class="seven wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced ">Blog</h4>
+        <p class="m-text-thin m-text-spaced m-opacity-mini" >这是我的个人博客、会分享关于编程、计算机相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+      </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <p class="m-text-thin m-text-spaced m-opacity-tiny"><a href="http://coderzhx.cn" target="_blank">Copyright © 2019张洪祥.AllRightsReserved.</a> <a href="http://beian.miitbeian.gov.cn">浙ICP备19028608号</a></p>
+  </div>
+
+</footer>
+
+<th:block th:fragment="script">
+  <script th:src="@{/js/slide.js}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="../static/lib/prism/prism.js" th:src="@{/lib/prism/prism.js}"></script>
+  <script src="../static/lib/tocbot/tocbot.min.js" th:src="@{/lib/tocbot/tocbot.min.js}"></script>
+  <script src="../static/lib/qrcode/qrcode.min.js" th:src="@{/lib/qrcode/qrcode.min.js}"></script>
+  <script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+</th:block>
+
+</body>
+</html>

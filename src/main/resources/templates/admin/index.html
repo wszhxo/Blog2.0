@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="admin/_fragments :: head(~{::title})">
+  <title>后台主页</title><!--标签里的文字会替换到模板中-->
+</head>
+<body>
+
+  <!--导航-->
+  <nav th:replace="admin/_fragments :: menu(4)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+
+  </nav>
+
+
+  <!--中间内容-->
+  <div  class="m-container-small m-padded-tb-big">
+    <div class="ui container">
+      <div class="ui success large  message">
+        <h3>Hi,</h3>
+        <p>欢迎登录！<a target="_blank" href="https://tongji.baidu.com/web/welcome/ico?s=caa0531ea7b15e8427a1d309bc0ede9a">查看统计报告</a> </p>
+
+<!--      新增访客-->
+        <div class="ui horizontal statistic">
+          <div class="label">
+            <p style="color:#ff7f50">新增访客</p>
+          </div>
+<!--          <div class="value" th:text="${newVisit.size()>0?newVisit.size():0}">-->
+<!--            2,204-->
+<!--          </div>-->
+        </div>
+
+        <!--新增访客列表-->
+        <div  th:if="${session.newVisits!=null}">
+          <table  class="ui compact teal table">
+            <thead>
+            <tr>
+              <th>序号</th>
+              <th>新增ip</th>
+              <th>访问次数</th>
+            </tr>
+            </thead>
+            <tbody >
+            <tr  th:each="item,c : ${session.newVisits}">
+              <td th:text="${c.count}">1</td>
+              <td th:text="${item.key}">ip</td>
+              <td th:text="${item.value}">访问次数</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+
+
+        <!--  新增文章浏览量-->
+        <div class="ui horizontal statistic">
+          <div class="label">
+            <p style="color:#ff7f50">新增文章浏览量</p>
+          </div>
+
+        </div>
+        <!--新增文章浏览量-->
+        <div  th:if="${session.blogVisit!=null}">
+          <table  class="ui compact teal table">
+            <thead>
+            <tr>
+              <th>序号</th>
+              <th>文章ip</th>
+              <th>访问次数</th>
+            </tr>
+            </thead>
+            <tbody >
+            <tr  th:each="item2,d : ${session.blogVisit}">
+              <td th:text="${d.count}">1</td>
+              <td th:text="${item2.key}">ip</td>
+              <td th:text="${item2.value}">访问次数</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!--/*/<th:block th:replace="_fragments :: script">/*/-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+  <!--/*/</th:block>/*/-->
+  <script>
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+      on : 'hover'
+    });
+
+  </script>
+</body>
+</html>
