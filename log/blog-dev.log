@@ -3745,3 +3745,289 @@ java.lang.NullPointerException: null
 2019-11-17 18:18:15.006  WARN 96124 --- [http-nio-8087-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
 2019-11-17 18:18:18.401  INFO 96124 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
 2019-11-17 18:18:18.409  INFO 96124 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-17 18:20:37.705  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 121792 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-17 18:20:37.706  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-17 18:20:40.265  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-17 18:20:40.290  INFO 121792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-17 18:20:40.290  INFO 121792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-17 18:20:40.521  INFO 121792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-17 18:20:40.522  INFO 121792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2669 ms
+2019-11-17 18:20:41.271  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-17 18:20:41.455  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-17 18:20:41.862  INFO 121792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-17 18:20:41.965  INFO 121792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-17 18:20:42.033  WARN 121792 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 18:20:42.273  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-17 18:20:42.285  INFO 121792 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-17 18:20:42.286  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-17 18:20:42.286  INFO 121792 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-17 18:20:42.287  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-17 18:20:42.287  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-17 18:20:42.287  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-17 18:20:42.287  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1b9b7c3b
+2019-11-17 18:20:42.643  INFO 121792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-17 18:20:42.695  INFO 121792 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-17 18:20:42.695  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-17 18:20:43.212  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-17 18:20:43.215  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 6.531 seconds (JVM running for 8.7)
+2019-11-17 18:20:47.684  INFO 121792 --- [http-nio-8087-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1570608488,1570676885,1570760044; yfx_step_rand_default_10003881=1571978862992; yfx_c_g_u_id_10003881=_ck20191025124743113445330205143; yfx_f_l_v_t_10003881=f_t_1571978862992__r_t_1571978862992__v_t_1571981450237__r_c_0; Hm_lvt_cfe7728851ca6a336d3d6845fb244f55=1573534439,1573822319,1573879786,1573972528; JSESSIONID=66948B504EB184A61E13D6CD259806FF; Hm_lpvt_cfe7728851ca6a336d3d6845fb244f55=1573985899] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-17 18:20:47.691  INFO 121792 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-17 18:20:47.692  INFO 121792 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-17 18:20:47.706  INFO 121792 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-11-17 18:20:47.737  INFO 121792 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-17 18:20:47.786  INFO 121792 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-17 18:20:55.429  INFO 121792 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-17 18:20:55.451  INFO 121792 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-17 18:20:57.541  INFO 121792 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[19, {}]}
+2019-11-17 18:20:57.607  INFO 121792 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-17 18:20:58.353  INFO 121792 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.comments', args=[19, {}]}
+2019-11-17 18:20:58.378  INFO 121792 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog :: commentList
+2019-11-17 18:49:53.826  INFO 121792 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 18:49:53.838  INFO 121792 --- [Thread-16] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-17 18:49:53.838  INFO 121792 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-17 18:49:53.839  INFO 121792 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 18:49:53.841  INFO 121792 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-17 18:49:53.847  INFO 121792 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-17 18:49:53.858  INFO 121792 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-17 18:49:53.889  INFO 121792 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-17 18:49:55.061  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 121792 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-17 18:49:55.061  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-17 18:49:55.914  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-17 18:49:55.915  INFO 121792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-17 18:49:55.915  INFO 121792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-17 18:49:55.962  INFO 121792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-17 18:49:55.962  INFO 121792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 897 ms
+2019-11-17 18:49:56.284  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-11-17 18:49:56.327  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-11-17 18:49:56.759  INFO 121792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-17 18:49:56.865  INFO 121792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-17 18:49:56.967  WARN 121792 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 18:49:57.124  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-17 18:49:57.126  INFO 121792 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-17 18:49:57.127  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-17 18:49:57.127  INFO 121792 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-17 18:49:57.127  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-17 18:49:57.127  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-17 18:49:57.127  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-17 18:49:57.127  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@a5f5bf9
+2019-11-17 18:49:57.272  INFO 121792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-17 18:49:57.289  INFO 121792 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-17 18:49:57.290  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-17 18:49:57.765  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-17 18:49:57.766  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 2.797 seconds (JVM running for 1763.251)
+2019-11-17 18:49:57.769  INFO 121792 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-17 19:03:25.377  INFO 121792 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:03:25.391  INFO 121792 --- [Thread-25] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-17 19:03:25.392  INFO 121792 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-17 19:03:25.392  INFO 121792 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:03:25.394  INFO 121792 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-17 19:03:25.394  INFO 121792 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:03:25.399  INFO 121792 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-11-17 19:03:25.474  INFO 121792 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-11-17 19:03:26.942  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 121792 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-17 19:03:26.942  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-17 19:03:27.011  WARN 121792 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\文档\管理系统\blog2.0版本\target\classes\cn\coderzhx\blog2\web\admin\TypeController.class]; nested exception is java.lang.ArrayIndexOutOfBoundsException: 6
+2019-11-17 19:03:27.044 ERROR 121792 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\文档\管理系统\blog2.0版本\target\classes\cn\coderzhx\blog2\web\admin\TypeController.class]; nested exception is java.lang.ArrayIndexOutOfBoundsException: 6
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:454)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:275)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at cn.coderzhx.blog2.Blog2Application.main(Blog2Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 6
+	at org.springframework.asm.ClassReader.readShort(ClassReader.java:3370)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:182)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:166)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:152)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:273)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:54)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:430)
+	... 25 common frames omitted
+
+2019-11-17 19:03:28.958  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 121792 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-17 19:03:28.958  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-17 19:03:29.472  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-17 19:03:29.473  INFO 121792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-17 19:03:29.473  INFO 121792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-17 19:03:29.498  INFO 121792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-17 19:03:29.499  INFO 121792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 539 ms
+2019-11-17 19:03:29.700  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-11-17 19:03:29.742  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-11-17 19:03:30.187  INFO 121792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:03:30.333  INFO 121792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-17 19:03:30.397  WARN 121792 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 19:03:30.685  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-17 19:03:30.686  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@20bf511f
+2019-11-17 19:03:30.856  INFO 121792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-17 19:03:30.893  INFO 121792 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-17 19:03:30.895  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-17 19:03:31.627  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-17 19:03:31.628  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 2.704 seconds (JVM running for 2577.113)
+2019-11-17 19:03:31.631  INFO 121792 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-17 19:03:35.444  INFO 106000 --- [main] cn.coderzhx.blog2.Blog2ApplicationTests  : Starting Blog2ApplicationTests on DESKTOP-8HHLSJO with PID 106000 (started by hasee in D:\�ĵ�\����ϵͳ\blog2.0�汾)
+2019-11-17 19:03:35.445  INFO 106000 --- [main] cn.coderzhx.blog2.Blog2ApplicationTests  : The following profiles are active: dev
+2019-11-17 19:03:39.105  INFO 106000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-17 19:03:39.348  INFO 106000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-17 19:03:41.399  INFO 106000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:03:41.724  INFO 106000 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-17 19:03:42.222  WARN 106000 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 19:03:44.203  INFO 106000 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-17 19:03:44.700  INFO 106000 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-17 19:03:44.700  INFO 106000 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-17 19:03:44.702  INFO 106000 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-17 19:03:44.703  INFO 106000 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-17 19:03:44.703  INFO 106000 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-17 19:03:44.703  INFO 106000 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-17 19:03:44.704  INFO 106000 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4733f6f5
+2019-11-17 19:03:45.405  INFO 106000 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-17 19:03:45.405  INFO 106000 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-17 19:03:45.414  INFO 106000 --- [main] cn.coderzhx.blog2.Blog2ApplicationTests  : Started Blog2ApplicationTests in 10.82 seconds (JVM running for 12.386)
+2019-11-17 19:03:47.421  INFO 106000 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:03:47.423  INFO 106000 --- [Thread-3] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-17 19:03:47.423  INFO 106000 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-17 19:03:47.423  INFO 106000 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:03:47.424  INFO 106000 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-17 19:03:47.426  INFO 106000 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:03:47.427  INFO 106000 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-17 19:03:47.444  INFO 106000 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-17 19:10:13.895  INFO 121792 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:10:13.909  INFO 121792 --- [Thread-31] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-17 19:10:13.910  INFO 121792 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-17 19:10:13.910  INFO 121792 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:10:13.911  INFO 121792 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-17 19:10:13.912  INFO 121792 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:10:13.918  INFO 121792 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-11-17 19:10:13.958  INFO 121792 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-11-17 19:10:15.335  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 121792 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-17 19:10:15.335  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-17 19:10:15.884  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-17 19:10:15.885  INFO 121792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-17 19:10:15.885  INFO 121792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-17 19:10:15.915  INFO 121792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-17 19:10:15.915  INFO 121792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 578 ms
+2019-11-17 19:10:16.162  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-11-17 19:10:16.180  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-11-17 19:10:16.427  INFO 121792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:10:16.564  INFO 121792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-17 19:10:16.661  WARN 121792 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 19:10:16.932  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-17 19:10:16.955  INFO 121792 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-17 19:10:16.955  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-17 19:10:16.955  INFO 121792 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-17 19:10:16.956  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-17 19:10:16.956  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-17 19:10:16.956  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-17 19:10:16.957  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@28eca97f
+2019-11-17 19:10:17.243  INFO 121792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-17 19:10:17.261  INFO 121792 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-17 19:10:17.264  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-17 19:10:18.340  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-17 19:10:18.340  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 3.046 seconds (JVM running for 2983.826)
+2019-11-17 19:10:18.342  INFO 121792 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-17 19:11:40.069  INFO 121792 --- [Thread-39] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:11:40.070  INFO 121792 --- [Thread-39] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-17 19:11:40.070  INFO 121792 --- [Thread-39] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-17 19:11:40.070  INFO 121792 --- [Thread-39] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-17 19:11:40.070  INFO 121792 --- [Thread-39] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-17 19:11:40.071  INFO 121792 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:11:40.071  INFO 121792 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-11-17 19:11:40.082  INFO 121792 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-11-17 19:11:40.629  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 121792 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-17 19:11:40.629  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-17 19:11:41.614  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-17 19:11:41.615  INFO 121792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-17 19:11:41.615  INFO 121792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-17 19:11:41.639  INFO 121792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-17 19:11:41.639  INFO 121792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1008 ms
+2019-11-17 19:11:41.803  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-11-17 19:11:41.816  INFO 121792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-11-17 19:11:42.065  INFO 121792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-17 19:11:42.106  INFO 121792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-17 19:11:42.141  WARN 121792 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 19:11:42.287  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-17 19:11:42.290  INFO 121792 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-17 19:11:42.290  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-17 19:11:42.290  INFO 121792 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-17 19:11:42.290  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-17 19:11:42.290  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-17 19:11:42.291  INFO 121792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-17 19:11:42.291  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4f253b14
+2019-11-17 19:11:42.431  INFO 121792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-17 19:11:42.446  INFO 121792 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-17 19:11:42.447  INFO 121792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-17 19:11:42.842  INFO 121792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-17 19:11:42.843  INFO 121792 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 2.251 seconds (JVM running for 3068.328)
+2019-11-17 19:11:42.844  INFO 121792 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
