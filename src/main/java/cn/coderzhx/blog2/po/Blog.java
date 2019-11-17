@@ -11,7 +11,7 @@ import java.util.List;
  * @create 2019-10-13-10
  */
 @Component
-public class Blog  implements Serializable {
+public class Blog implements Serializable, Cloneable {
     private Long id;
     private String cover;//封面
     private String title;//标题
@@ -31,6 +31,17 @@ public class Blog  implements Serializable {
     private List<Tag> tags=new ArrayList<>();//该文章下的所有标签
     private String tagIds;//标签的id字符串集合,用于业务
 
+
+    @Override
+    public Blog clone() {
+        Blog blog = null;
+        try {
+            blog = (Blog) super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return blog;
+    }
 
     public Integer getIstop() {
         return istop;
@@ -148,6 +159,7 @@ public class Blog  implements Serializable {
     }
 
     public void setCommentabled(String commentabled) {
+        System.out.println(commentabled);
         this.commentabled = (commentabled.equals("on")||Integer.valueOf(commentabled).equals(1)? 1:0);
     }
 

@@ -1,9 +1,7 @@
 package cn.coderzhx.blog2.web;
 
 import cn.coderzhx.blog2.aspect.LogAspect;
-import cn.coderzhx.blog2.po.Blog;
-import cn.coderzhx.blog2.po.Tag;
-import cn.coderzhx.blog2.po.Type;
+import cn.coderzhx.blog2.po.*;
 import cn.coderzhx.blog2.service.*;
 import cn.coderzhx.blog2.util.BlogIndex;
 import cn.coderzhx.blog2.vo.PageBean;
@@ -12,8 +10,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 import static cn.coderzhx.blog2.util.MarkdownUtils.markdownToHtmlExtensions;
@@ -33,7 +33,10 @@ public class IndexController {
     @Autowired
     private UserService userService;
     @Autowired
+    private CommentService commentService;
+    @Autowired
     private LinkService linkService;
+
     static BlogIndex index=new BlogIndex();
     static PageBean listBlogs;
 
@@ -56,7 +59,6 @@ public class IndexController {
     @GetMapping("/search")
     public String search(@RequestParam String query, Model model) throws Exception {
          listBlogs = index.searchBlog(query);
-        System.out.println(listBlogs.toString());
         model.addAttribute("page", listBlogs);
         return "search";
     }
@@ -72,10 +74,32 @@ public class IndexController {
     public String blog(@PathVariable Long id, Model model) {
         blogService.addViews(id);
         Blog blogById = blogService.getBlogById(id);
-        blogById.setContent(markdownToHtmlExtensions(blogById.getContent()));
-        model.addAttribute("blog", blogById);
+        Blog blogById2=blogById.clone();
+        blogById2.setContent(markdownToHtmlExtensions(blogById.getContent()));
+        model.addAttribute("blog", blogById2);
         return "blog";
     }
+
+    //列出该文章的评论,类似于ajax
+    @GetMapping("/comments/{blogId}")
+    public String comments(@PathVariable Long blogId, Model model) {
+        model.addAttribute("comments",  commentService.listCommentParentIsNull(blogId));
+        return "blog :: commentList";
+    }
+    //添加评论
+    @PostMapping("/comments")
+    public String post(Comment comment, HttpSession session) {
+        User user = (User) session.getAttribute("user");
+        if (user != null) {
+            comment.setAvatar(user.getAvatar());
+            comment.setAdminComment(1);
+        } else {
+            comment.setAvatar(comment.getAvatar());
+        }
+        commentService.saveComment(comment);
+        return "redirect:/comments/" + comment.getBlogId();
+    }
+
     //找到对应id的分类
     @GetMapping("/types/{id}")
     public String types(@PathVariable Integer id, Model model,PageBean pageBean) {

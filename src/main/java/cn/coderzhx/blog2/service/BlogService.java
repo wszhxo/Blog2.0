@@ -23,7 +23,7 @@ public interface BlogService {
     void saveBlog(Blog blog);
     void deleteBlog(Long id);
     Long countBlog(PageBean pageBean);
-    void updateBlog(Blog blog);
+    Blog updateBlog(Blog blog);
 
     List<Blog> listLunboBlog();
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.coderzhx.blog2.mapper.CommentMapper">
+    <resultMap id="commentList" type="Comment">
+        <result column="id" property="id"/>
+        <result column="admin_comment" property="adminComment"/>
+        <result column="avatar" property="avatar"/>
+        <result column="content" property="content"/>
+        <result column="create_time" property="createTime"/>
+        <result column="email" property="email"/>
+        <result column="nickname" property="nickname"/>
+        <result column="blog_id" property="blogId"/>
+        <result column="parent_comment_id" property="parentId"/>
+        <result column="pnikename" property="pnikename"/>
+        <collection property="replyComments" column="id"  select="listCommentById"/>
+    </resultMap>
+    <!--顶级评论-->
+    <select id="listCommentParentIsNull" resultType="Comment" parameterType="Long">
+        select id,avatar,email,nickname,content,create_time createTime
+        ,parent_comment_id,blog_id from t_comment where parent_comment_id IS NULL and blog_id=#{blogId}
+    </select>
+<!--    所有子集评论,递归查询-->
+    <select id="listCommentById" parameterType="Long" resultMap="commentList">
+        select a.id,a.avatar,a.nickname,a.email,a.content,a.create_time,a.parent_comment_id,a.blog_id,b.nickname as pnickname
+        from t_comment a  join t_comment  b on a.parent_comment_id=b.id where a.parent_comment_id=#{id}
+    </select>
+<!--    添加评论-->
+    <insert id="saveComment" parameterType="Comment" >
+INSERT into t_comment(admin_comment,avatar,content,create_time,email,nickname,blog_id,parent_comment_id)
+VALUES(#{adminComment},#{avatar},#{content},NOW(),#{email},#{nickname},#{blogId},#{parentId})
+    </insert>
+</mapper>

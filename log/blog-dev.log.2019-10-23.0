@@ -1,0 +1,53 @@
+2019-10-23 19:25:27.370  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 10164 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-23 19:25:27.375  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-23 19:25:31.460  INFO 10164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-23 19:25:31.522  INFO 10164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 19:25:31.523  INFO 10164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-23 19:25:31.706  INFO 10164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 19:25:31.707  INFO 10164 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4090 ms
+2019-10-23 19:25:32.841  INFO 10164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 19:25:33.159  INFO 10164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 19:25:33.643  INFO 10164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 19:25:33.877  INFO 10164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 19:25:33.974  WARN 10164 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-23 19:25:34.540  INFO 10164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 19:25:34.627  INFO 10164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-23 19:25:34.629  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 8.696 seconds (JVM running for 11.605)
+2019-10-23 19:32:21.650  INFO 10164 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 19:32:21.651  INFO 10164 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-23 19:32:21.664  INFO 10164 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-23 19:32:22.212  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 10164 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-23 19:32:22.222  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-23 19:32:22.672  INFO 10164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-23 19:32:22.672  INFO 10164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 19:32:22.672  INFO 10164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-23 19:32:22.702  INFO 10164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 19:32:22.702  INFO 10164 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 480 ms
+2019-10-23 19:32:22.891  INFO 10164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-10-23 19:32:22.911  INFO 10164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-10-23 19:32:23.401  INFO 10164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 19:32:23.471  INFO 10164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 19:32:23.521  WARN 10164 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-23 19:32:23.893  INFO 10164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 19:32:23.926  INFO 10164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-23 19:32:23.927  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.744 seconds (JVM running for 420.902)
+2019-10-23 19:32:23.929  INFO 10164 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-23 19:34:53.924  INFO 10164 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-23 19:34:53.928  INFO 10164 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-10-23 19:34:54.020  INFO 10164 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-10-23 19:34:54.787  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 10164 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-23 19:34:54.787  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-23 19:34:55.280  INFO 10164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-23 19:34:55.280  INFO 10164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 19:34:55.280  INFO 10164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-23 19:34:55.313  INFO 10164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 19:34:55.313  INFO 10164 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 522 ms
+2019-10-23 19:34:55.491  INFO 10164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-10-23 19:34:55.511  INFO 10164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-10-23 19:34:55.673  INFO 10164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 19:34:55.717  INFO 10164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 19:34:55.749  WARN 10164 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-23 19:34:56.032  INFO 10164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-23 19:34:56.078  INFO 10164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-23 19:34:56.078  INFO 10164 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.327 seconds (JVM running for 573.056)
+2019-10-23 19:34:56.082  INFO 10164 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

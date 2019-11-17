@@ -66,7 +66,6 @@ public class LoginController {
             session.setAttribute("blogVisit", map)  ;
             blogService.cleanMap();
             return "admin/index";
-
         }
     }
 

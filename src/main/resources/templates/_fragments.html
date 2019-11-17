@@ -17,7 +17,7 @@
   <link rel="stylesheet"  th:href="@{/css/font-awesome.css}">
   <link rel="stylesheet"  th:href="@{/css/style.css}" >
   <script  th:src="@{/js/jquery-1.11.0.min.js}"></script>
-  <link rel="stylesheet" href="/css/me.css" th:href="@{/css/blue.css}" id="cssfile">
+  <link rel="stylesheet" href="/css/me.css" th:href="@{/css/green.css}" id="cssfile">
   <script th:src="@{/js/scrollReveal.js}"></script>
 <!--百度统计-->
   <script>
@@ -40,11 +40,11 @@
       var i=0;
       blue.onclick = function () {
         if (i % 3 == 0) {
-          cssfile.href = '/css/green.css';
-        } else if (i % 3 == 1) {
           cssfile.href = '/css/me.css';
-        } else {
+        } else if (i % 3 == 1) {
           cssfile.href = '/css/blue.css';
+        } else {
+          cssfile.href = '/css/green.css';
         }
         i++;
         i = i % 3;
@@ -75,7 +75,7 @@
 <nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" id="nav1">
   <div class="ui container">
     <div class="ui inverted secondary stackable menu">
-      <h2 class="ui grey header item" id="logo">  coderzhx</h2>
+      <h2 class="ui grey header item" id="logo" style="color: #ffffff!important;">coderzhx</h2>
       <a href="#" th:href="@{/}" class="m-item item m-mobile-hide " th:classappend="${n==1} ? 'active'"><i class="mini home icon"></i>首页</a>
       <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="mini idea icon"></i>分类</a>
       <a href="#" th:href="@{/tags/-1}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="mini tags icon"></i>标签</a>

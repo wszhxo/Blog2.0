@@ -1,0 +1,349 @@
+2019-11-12 12:42:33.901  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 12:42:33.917  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 12:42:36.071  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 12:42:36.093  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 12:42:36.094  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 12:42:36.207  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 12:42:36.208  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2192 ms
+2019-11-12 12:42:36.737  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-12 12:42:36.894  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-12 12:42:37.241  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 12:42:37.339  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 12:42:37.398  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 12:42:37.633  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 12:42:37.644  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 12:42:37.645  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 12:42:37.645  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 12:42:37.646  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 12:42:37.647  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 12:42:37.647  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 12:42:37.647  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3bc2d2d0
+2019-11-12 12:42:37.873  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 12:42:37.902  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 12:42:37.902  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 12:42:37.948  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 12:42:37.953  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 4.729 seconds (JVM running for 6.613)
+2019-11-12 12:53:57.579  INFO 34480 --- [http-nio-8087-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1570608488,1570676885,1570760044; yfx_step_rand_default_10003881=1571978862992; yfx_c_g_u_id_10003881=_ck20191025124743113445330205143; yfx_f_l_v_t_10003881=f_t_1571978862992__r_t_1571978862992__v_t_1571981450237__r_c_0; Hm_lvt_cfe7728851ca6a336d3d6845fb244f55=1572780411,1573438416,1573460132] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-12 12:53:57.587  INFO 34480 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 12:53:57.587  INFO 34480 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-12 12:53:57.599  INFO 34480 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-11-12 12:54:11.837  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 12:54:11.943  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 13:07:35.101  INFO 34480 --- [Thread-14] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:07:35.103  INFO 34480 --- [Thread-14] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-12 13:07:35.103  INFO 34480 --- [Thread-14] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-12 13:07:35.103  INFO 34480 --- [Thread-14] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:07:35.104  INFO 34480 --- [Thread-14] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-12 13:07:35.108  INFO 34480 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:07:35.109  INFO 34480 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-12 13:07:35.120  INFO 34480 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-12 13:07:35.827  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 13:07:35.827  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 13:07:36.402  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 13:07:36.404  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 13:07:36.404  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 13:07:36.432  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 13:07:36.433  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 603 ms
+2019-11-12 13:07:36.609  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-11-12 13:07:36.618  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-11-12 13:07:36.811  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:07:36.853  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 13:07:36.885  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 13:07:37.004  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 13:07:37.005  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7a26a699
+2019-11-12 13:07:37.159  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 13:07:37.183  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 13:07:37.183  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 13:07:37.198  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 13:07:37.200  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.421 seconds (JVM running for 1505.86)
+2019-11-12 13:07:37.203  INFO 34480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-12 13:10:24.557  INFO 34480 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:10:24.558  INFO 34480 --- [Thread-22] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-12 13:10:24.558  INFO 34480 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-12 13:10:24.559  INFO 34480 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:10:24.559  INFO 34480 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-12 13:10:24.559  INFO 34480 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:10:24.565  INFO 34480 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-11-12 13:10:24.615  INFO 34480 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-11-12 13:10:25.267  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 13:10:25.268  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 13:10:25.902  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 13:10:25.904  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 13:10:25.904  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 13:10:25.927  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 13:10:25.927  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 657 ms
+2019-11-12 13:10:26.079  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-11-12 13:10:26.088  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-11-12 13:10:26.309  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:10:26.355  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 13:10:26.395  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 13:10:26.543  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 13:10:26.543  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 13:10:26.543  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 13:10:26.543  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 13:10:26.543  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 13:10:26.544  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 13:10:26.544  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 13:10:26.544  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2d6ab53
+2019-11-12 13:10:26.680  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 13:10:26.694  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 13:10:26.695  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 13:10:26.708  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 13:10:26.710  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.481 seconds (JVM running for 1675.371)
+2019-11-12 13:10:26.712  INFO 34480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-12 13:10:32.963  INFO 34480 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 13:10:32.966  INFO 34480 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-12 13:10:32.978  INFO 34480 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-11-12 13:10:34.899  INFO 34480 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 13:10:34.930  INFO 34480 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 13:10:36.971  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[19, {}]}
+2019-11-12 13:10:37.033  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-12 13:11:52.052  INFO 34480 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[19, {}]}
+2019-11-12 13:11:52.059  INFO 34480 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-12 13:11:58.347  INFO 34480 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 13:11:58.368  INFO 34480 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 13:13:42.289  INFO 34480 --- [Thread-28] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:13:42.289  INFO 34480 --- [Thread-28] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-12 13:13:42.289  INFO 34480 --- [Thread-28] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-12 13:13:42.290  INFO 34480 --- [Thread-28] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:13:42.290  INFO 34480 --- [Thread-28] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-12 13:13:42.290  INFO 34480 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:13:42.291  INFO 34480 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-11-12 13:13:42.301  INFO 34480 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-11-12 13:13:43.020  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 13:13:43.020  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 13:13:43.526  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 13:13:43.527  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 13:13:43.527  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 13:13:43.559  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 13:13:43.559  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 537 ms
+2019-11-12 13:13:43.691  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-11-12 13:13:43.698  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-11-12 13:13:43.893  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:13:43.937  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 13:13:43.969  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 13:13:44.127  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 13:13:44.128  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6ae0a2f4
+2019-11-12 13:13:44.294  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 13:13:44.313  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 13:13:44.313  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 13:13:44.363  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 13:13:44.363  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.372 seconds (JVM running for 1873.024)
+2019-11-12 13:13:44.369  INFO 34480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-12 13:16:41.604  INFO 34480 --- [http-nio-8087-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 13:16:41.608  INFO 34480 --- [http-nio-8087-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-12 13:16:41.620  INFO 34480 --- [http-nio-8087-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-11-12 13:16:43.709  INFO 34480 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 13:16:43.746  INFO 34480 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 13:16:48.865  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/21', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[21, {}]}
+2019-11-12 13:16:48.878  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-12 13:16:52.817  INFO 34480 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/21', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[21, {}]}
+2019-11-12 13:16:52.817  INFO 34480 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-12 13:17:27.341  INFO 34480 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 13:17:27.359  INFO 34480 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 13:17:29.047  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/21', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[21, {}]}
+2019-11-12 13:17:29.048  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-12 13:17:30.070  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/21', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[21, {}]}
+2019-11-12 13:17:30.070  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-11-12 13:17:31.716  INFO 34480 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 13:17:31.733  INFO 34480 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 13:19:26.540  INFO 34480 --- [Thread-34] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:19:26.541  INFO 34480 --- [Thread-34] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-12 13:19:26.541  INFO 34480 --- [Thread-34] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-12 13:19:26.541  INFO 34480 --- [Thread-34] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 13:19:26.541  INFO 34480 --- [Thread-34] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-12 13:19:26.541  INFO 34480 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:19:26.541  INFO 34480 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-11-12 13:19:26.548  INFO 34480 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-11-12 13:19:27.232  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 13:19:27.233  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 13:19:27.785  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 13:19:27.786  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 13:19:27.786  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 13:19:27.816  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 13:19:27.816  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 581 ms
+2019-11-12 13:19:28.151  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-11-12 13:19:28.160  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-11-12 13:19:28.563  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 13:19:28.687  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 13:19:28.789  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 13:19:29.029  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 13:19:29.029  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 13:19:29.029  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 13:19:29.029  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 13:19:29.030  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 13:19:29.030  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 13:19:29.030  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 13:19:29.030  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@9bf840f
+2019-11-12 13:19:29.204  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 13:19:29.219  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 13:19:29.219  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 13:19:29.237  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 13:19:29.237  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 2.043 seconds (JVM running for 2217.898)
+2019-11-12 13:19:29.241  INFO 34480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-12 13:20:13.685  INFO 34480 --- [http-nio-8087-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 13:20:13.686  INFO 34480 --- [http-nio-8087-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-12 13:20:13.698  INFO 34480 --- [http-nio-8087-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-11-12 14:08:04.936  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:08:04.974  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-11-12 14:08:06.912  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.tags', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:08:06.914  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Result : tags
+2019-11-12 14:08:07.925  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/archives', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.archives', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:08:07.939  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : archives
+2019-11-12 14:08:09.863  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{}]}
+2019-11-12 14:08:09.876  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-11-12 14:09:03.307  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/archives', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.archives', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:09:03.315  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : archives
+2019-11-12 14:09:03.915  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.tags', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:09:03.916  INFO 34480 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : tags
+2019-11-12 14:09:04.363  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:09:04.371  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-11-12 14:09:04.941  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 14:09:04.958  INFO 34480 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 15:06:13.841  INFO 34480 --- [Thread-40] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 15:06:13.852  INFO 34480 --- [Thread-40] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-12 15:06:13.852  INFO 34480 --- [Thread-40] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-12 15:06:13.852  INFO 34480 --- [Thread-40] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 15:06:13.853  INFO 34480 --- [Thread-40] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-12 15:06:13.855  INFO 34480 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-12 15:06:13.861  INFO 34480 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-11-12 15:06:13.869  INFO 34480 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-11-12 15:06:14.830  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 15:06:14.830  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 15:06:15.944  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 15:06:15.944  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 15:06:15.945  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 15:06:16.048  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 15:06:16.048  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1216 ms
+2019-11-12 15:06:16.479  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-11-12 15:06:16.495  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-11-12 15:06:17.150  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 15:06:17.228  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 15:06:17.289  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 15:06:17.614  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 15:06:17.616  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@19f4f90f
+2019-11-12 15:06:18.036  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 15:06:18.053  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 15:06:18.054  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 15:06:18.069  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 15:06:18.073  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 3.289 seconds (JVM running for 8626.73)
+2019-11-12 15:06:18.076  INFO 34480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-12 15:08:33.251  INFO 34480 --- [Thread-46] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 15:08:33.253  INFO 34480 --- [Thread-46] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-11-12 15:08:33.253  INFO 34480 --- [Thread-46] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-11-12 15:08:33.253  INFO 34480 --- [Thread-46] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-11-12 15:08:33.253  INFO 34480 --- [Thread-46] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-11-12 15:08:33.254  INFO 34480 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-12 15:08:33.254  INFO 34480 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-11-12 15:08:33.260  INFO 34480 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-11-12 15:08:34.214  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 34480 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-11-12 15:08:34.215  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-11-12 15:08:34.786  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-11-12 15:08:34.786  INFO 34480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-12 15:08:34.786  INFO 34480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-12 15:08:34.839  INFO 34480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-12 15:08:34.839  INFO 34480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 620 ms
+2019-11-12 15:08:34.965  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2019-11-12 15:08:34.976  INFO 34480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2019-11-12 15:08:35.169  INFO 34480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 15:08:35.214  INFO 34480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-12 15:08:35.250  WARN 34480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-12 15:08:35.387  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2019-11-12 15:08:35.388  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1e4491ce
+2019-11-12 15:08:35.555  INFO 34480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-12 15:08:35.569  INFO 34480 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-11-12 15:08:35.569  INFO 34480 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-11-12 15:08:35.587  INFO 34480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-11-12 15:08:35.588  INFO 34480 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.458 seconds (JVM running for 8764.248)
+2019-11-12 15:08:35.590  INFO 34480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-12 15:12:16.919  INFO 34480 --- [http-nio-8087-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 15:12:16.920  INFO 34480 --- [http-nio-8087-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-12 15:12:16.934  INFO 34480 --- [http-nio-8087-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-11-12 15:12:16.951  INFO 34480 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:16.986  INFO 34480 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-11-12 15:12:19.414  INFO 34480 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.tags', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:19.416  INFO 34480 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : tags
+2019-11-12 15:12:20.412  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/archives', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.archives', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:20.421  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : archives
+2019-11-12 15:12:21.390  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.tags', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:21.392  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : tags
+2019-11-12 15:12:22.052  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:22.069  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-11-12 15:12:22.939  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/archives', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.archives', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:22.952  INFO 34480 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Result : archives
+2019-11-12 15:12:23.945  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, word='null', title='null', published=null, typeId=null, tagId=null, tags='null'}]}
+2019-11-12 15:12:23.958  INFO 34480 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : index

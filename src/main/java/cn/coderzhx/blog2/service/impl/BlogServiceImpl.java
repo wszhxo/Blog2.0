@@ -43,11 +43,9 @@ public class BlogServiceImpl implements BlogService {
         pageBean1.setList(blogMapper.listBlog(pageBean1));
         return pageBean1;
     }
-
     @Override
-    @Cacheable(cacheNames = "findBlogById")
+    @Cacheable(value  = "findBlogById", key = "#id" )
     public Blog getBlogById(Long id) {
-        System.out.println("测试缓存");
         Blog blogById = blogMapper.getBlogById(id);
         return blogById;
     }
@@ -84,10 +82,9 @@ public class BlogServiceImpl implements BlogService {
             e.printStackTrace();
         }
     }
-    @Transactional
     @Override
-    @CachePut(cacheNames = "findBlogById", key = "#blog.id")
-    public void updateBlog(Blog blog) {
+    @CachePut(value  = "findBlogById", key = "#blog.id" )
+    public Blog updateBlog(Blog blog) {
         //先删除所有该文章id的标签
         tagMapper.deleteTagByBlogId(blog.getId());
         //再添加
@@ -95,21 +92,22 @@ public class BlogServiceImpl implements BlogService {
         for (int i = 0; i < tagsarr.length; i++) {
             tagMapper.saveBlogTags(blog.getId(),Long.parseLong(tagsarr[i]));
         }
-        blogMapper.updateBlog(blog);
-        //修改文章索引
+//        修改文章索引
         try {
             blogIndex.updateIndex(blog);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+        blogMapper.updateBlog(blog);
+        return blog;//不加这个缓存就是空的,必须返回
     }
 
     @Override
     public List<Blog> listLunboBlog() {
         return blogMapper.listLunboBlog();
     }
-
+    @Transactional
     @Override
     public synchronized  void addViews(Long id) {
         Long i= map.get(id);//获取出现次数
@@ -149,11 +147,8 @@ public class BlogServiceImpl implements BlogService {
         map.clear();
     }
 
-
-
-    @Transactional
     @Override
-    @CacheEvict(cacheNames = "findBlogById", key = "#id")
+    @CacheEvict(value  = "findBlogById")
     public void deleteBlog(Long id) {
         //首先删除包含外键的记录
         //删除关联标签

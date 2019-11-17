@@ -1,0 +1,691 @@
+2019-10-24 17:55:34.147  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 2400 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 17:55:34.150  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 17:55:35.646  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 17:55:35.673  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 17:55:35.673  INFO 2400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 17:55:35.798  INFO 2400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 17:55:35.798  INFO 2400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1557 ms
+2019-10-24 17:55:36.304  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-24 17:55:36.601  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-24 17:55:37.111  INFO 2400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 17:55:37.195  INFO 2400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 17:55:37.249  WARN 2400 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 17:55:37.619  INFO 2400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 17:55:37.678  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-24 17:55:37.681  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 4.257 seconds (JVM running for 5.677)
+2019-10-24 18:50:23.047  INFO 2400 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 18:50:23.060  INFO 2400 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-24 18:50:23.162  INFO 2400 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-24 18:50:24.319  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 2400 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 18:50:24.319  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 18:50:25.923  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 18:50:25.924  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 18:50:25.925  INFO 2400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 18:50:26.119  INFO 2400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 18:50:26.120  INFO 2400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1799 ms
+2019-10-24 18:50:28.107  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-10-24 18:50:28.206  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-10-24 18:50:28.785  INFO 2400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 18:50:28.901  INFO 2400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 18:50:28.957  WARN 2400 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 18:50:29.467  INFO 2400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 18:50:29.506  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-24 18:50:29.507  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 5.264 seconds (JVM running for 3297.503)
+2019-10-24 18:50:29.510  INFO 2400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 18:52:00.957  INFO 2400 --- [http-nio-8087-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1570608488,1570676885,1570760044] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-10-24 18:52:00.990  INFO 2400 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 18:52:00.990  INFO 2400 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 18:52:01.038  INFO 2400 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2019-10-24 18:52:01.156  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:52:01.677 ERROR 2400 --- [http-nio-8087-exec-1] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8087/，Exception : {}
+
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+### The error may exist in file [D:\文档\管理系统\blog2.0版本\target\classes\mapper\LinkMapper.xml]
+### The error may involve cn.coderzhx.blog2.mapper.LinkMapper.listLink-Inline
+### The error occurred while setting parameters
+### SQL: SELECT * FROM t_Link                       limit ?,?;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy109.listLink(Unknown Source)
+	at cn.coderzhx.blog2.service.impl.LinkServiceImpl.listTagAndCount(LinkServiceImpl.java:38)
+	at cn.coderzhx.blog2.web.IndexController.index(IndexController.java:46)
+	at cn.coderzhx.blog2.web.IndexController$$FastClassBySpringCGLIB$$d904e9b0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.coderzhx.blog2.web.IndexController$$EnhancerBySpringCGLIB$$988475b4.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 76 common frames omitted
+
+2019-10-24 18:52:01.680  WARN 2400 --- [http-nio-8087-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+### The error may exist in file [D:\文档\管理系统\blog2.0版本\target\classes\mapper\LinkMapper.xml]
+### The error may involve cn.coderzhx.blog2.mapper.LinkMapper.listLink-Inline
+### The error occurred while setting parameters
+### SQL: SELECT * FROM t_Link                       limit ?,?;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3]
+2019-10-24 18:52:21.167  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:52:21.204  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 18:52:50.522  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:52:50.563 ERROR 2400 --- [http-nio-8087-exec-8] c.c.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8087/，Exception : {}
+
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+### The error may exist in file [D:\文档\管理系统\blog2.0版本\target\classes\mapper\LinkMapper.xml]
+### The error may involve cn.coderzhx.blog2.mapper.LinkMapper.listLink-Inline
+### The error occurred while setting parameters
+### SQL: SELECT * FROM t_Link                       limit ?,?;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy109.listLink(Unknown Source)
+	at cn.coderzhx.blog2.service.impl.LinkServiceImpl.listTagAndCount(LinkServiceImpl.java:38)
+	at cn.coderzhx.blog2.web.IndexController.index(IndexController.java:46)
+	at cn.coderzhx.blog2.web.IndexController$$FastClassBySpringCGLIB$$d904e9b0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.coderzhx.blog2.web.IndexController$$EnhancerBySpringCGLIB$$988475b4.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 76 common frames omitted
+
+2019-10-24 18:52:50.564  WARN 2400 --- [http-nio-8087-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+### The error may exist in file [D:\文档\管理系统\blog2.0版本\target\classes\mapper\LinkMapper.xml]
+### The error may involve cn.coderzhx.blog2.mapper.LinkMapper.listLink-Inline
+### The error occurred while setting parameters
+### SQL: SELECT * FROM t_Link                       limit ?,?;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null,7' at line 3]
+2019-10-24 18:54:23.127  INFO 2400 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 18:54:23.128  INFO 2400 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-10-24 18:54:23.134  INFO 2400 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-10-24 18:54:24.025  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 2400 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 18:54:24.026  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 18:54:24.590  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 18:54:24.591  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 18:54:24.591  INFO 2400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 18:54:24.618  INFO 2400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 18:54:24.618  INFO 2400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 590 ms
+2019-10-24 18:54:24.805  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-10-24 18:54:24.835  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-10-24 18:54:25.148  INFO 2400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 18:54:25.203  INFO 2400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 18:54:25.314  WARN 2400 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 18:54:25.836  INFO 2400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 18:54:25.875  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-24 18:54:25.878  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 1.929 seconds (JVM running for 3533.874)
+2019-10-24 18:54:25.881  INFO 2400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 18:54:27.929  INFO 2400 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 18:54:27.931  INFO 2400 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 18:54:27.939  INFO 2400 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-10-24 18:54:27.943  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:27.995  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 18:54:37.455  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=2, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=2, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:37.482  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 18:54:41.269  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:41.289  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 18:54:41.375  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:41.377  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/2', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[2, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:41.389  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 18:54:41.393  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 18:54:41.481  INFO 2400 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:41.493  INFO 2400 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 18:54:46.229  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.tags', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:46.231  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : tags
+2019-10-24 18:54:47.741  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/archives', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.archives', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:54:47.766  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : archives
+2019-10-24 18:56:42.950  INFO 2400 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/5', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[5, {}]}
+2019-10-24 18:56:43.002  INFO 2400 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-10-24 18:56:49.641  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:56:49.641  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 18:57:01.642  INFO 2400 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:57:01.673  INFO 2400 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 18:57:03.485  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:57:03.486  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 18:57:06.271  INFO 2400 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:57:06.299  INFO 2400 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 18:57:07.441  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:57:07.442  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 18:57:42.308  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:57:42.333  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 18:57:50.058  INFO 2400 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 18:57:50.060  INFO 2400 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 19:10:21.517  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 19:10:21.518  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 19:59:50.723  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 19:59:50.723  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 20:00:09.337  INFO 2400 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:00:09.377  INFO 2400 --- [http-nio-8087-exec-2] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 20:03:39.129  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:03:39.145  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:03:39.450  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:03:39.460  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:03:39.623  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/2', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[2, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:03:39.630  INFO 2400 --- [http-nio-8087-exec-7] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:03:39.634  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:03:39.644  INFO 2400 --- [http-nio-8087-exec-4] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:03:41.809  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:03:41.832  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 20:13:06.795  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.blog', args=[2, {}]}
+2019-10-24 20:13:06.810  INFO 2400 --- [http-nio-8087-exec-8] cn.coderzhx.blog2.aspect.LogAspect       : Result : blog
+2019-10-24 20:32:46.647  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/archives', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.archives', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:46.670  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : archives
+2019-10-24 20:32:47.998  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.tags', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:48.001  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : tags
+2019-10-24 20:32:50.188  INFO 2400 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[-1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:50.204  INFO 2400 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:32:50.258  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:50.258  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/2', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[2, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:50.267  INFO 2400 --- [http-nio-8087-exec-3] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:32:50.270  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:32:50.368  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/types/1', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.types', args=[1, {pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:50.380  INFO 2400 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : types
+2019-10-24 20:32:52.968  INFO 2400 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:52.996  INFO 2400 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 20:32:58.593  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:32:58.624  INFO 2400 --- [http-nio-8087-exec-6] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 20:45:19.680  INFO 2400 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 20:45:19.683  INFO 2400 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-10-24 20:45:19.699  INFO 2400 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-10-24 20:45:20.499  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 2400 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 20:45:20.500  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 20:45:21.079  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 20:45:21.080  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 20:45:21.081  INFO 2400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 20:45:21.105  INFO 2400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 20:45:21.105  INFO 2400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 602 ms
+2019-10-24 20:45:21.298  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-10-24 20:45:21.324  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-10-24 20:45:21.647  INFO 2400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 20:45:21.760  INFO 2400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 20:45:21.812  WARN 2400 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 20:45:22.400  INFO 2400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 20:45:22.456  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-24 20:45:22.456  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 2.005 seconds (JVM running for 10190.453)
+2019-10-24 20:45:22.458  INFO 2400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 20:46:06.281  INFO 2400 --- [http-nio-8087-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 20:46:06.283  INFO 2400 --- [http-nio-8087-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 20:46:06.302  INFO 2400 --- [http-nio-8087-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-10-24 20:46:06.304  INFO 2400 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:46:06.344  INFO 2400 --- [http-nio-8087-exec-10] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 20:46:55.916  INFO 2400 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 20:46:55.941  INFO 2400 --- [http-nio-8087-exec-9] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 20:54:58.045  INFO 2400 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 20:54:58.045  INFO 2400 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-10-24 20:54:58.055  INFO 2400 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-10-24 20:54:58.729  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 2400 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 20:54:58.729  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 20:54:59.768  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 20:54:59.777  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 20:54:59.777  INFO 2400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 20:54:59.824  INFO 2400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 20:54:59.824  INFO 2400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1093 ms
+2019-10-24 20:55:00.090  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-10-24 20:55:00.148  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-10-24 20:55:00.372  INFO 2400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 20:55:00.429  INFO 2400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 20:55:00.461  WARN 2400 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 20:55:00.704  INFO 2400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 20:55:00.740  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-24 20:55:00.740  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 2.048 seconds (JVM running for 10768.737)
+2019-10-24 20:55:00.742  INFO 2400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 20:57:28.639  INFO 2400 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 20:57:28.640  INFO 2400 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-10-24 20:57:28.657  INFO 2400 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-10-24 20:57:29.645  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 2400 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 20:57:29.647  INFO 2400 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 20:57:30.625  INFO 2400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 20:57:30.635  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 20:57:30.636  INFO 2400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 20:57:30.664  INFO 2400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 20:57:30.664  INFO 2400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1014 ms
+2019-10-24 20:57:30.894  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-10-24 20:57:30.959  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-10-24 20:57:30.964  WARN 2400 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'indexInit': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: cn/coderzhx/blog2/aspect/LogAspect
+2019-10-24 20:57:30.965  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-10-24 20:57:30.977  INFO 2400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-10-24 20:57:30.977  INFO 2400 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-10-24 20:57:30.987  INFO 2400 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-24 20:57:31.018 ERROR 2400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'indexInit': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: cn/coderzhx/blog2/aspect/LogAspect
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at cn.coderzhx.blog2.Blog2Application.main(Blog2Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: cn/coderzhx/blog2/aspect/LogAspect
+	at cn.coderzhx.blog2.service.impl.IpServiceImpl.getVisitCount(IpServiceImpl.java:32)
+	at cn.coderzhx.blog2.util.IndexInit.init(IndexInit.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: cn.coderzhx.blog2.aspect.LogAspect
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 common frames omitted
+
+2019-10-24 22:45:39.749  INFO 7108 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Starting Blog2Application on DESKTOP-8HHLSJO with PID 7108 (started by hasee in D:\文档\管理系统\blog2.0版本)
+2019-10-24 22:45:39.749  INFO 7108 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : The following profiles are active: dev
+2019-10-24 22:45:41.371  INFO 7108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2019-10-24 22:45:41.401  INFO 7108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 22:45:41.401  INFO 7108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 22:45:41.571  INFO 7108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 22:45:41.571  INFO 7108 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1762 ms
+2019-10-24 22:45:42.329  INFO 7108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-24 22:45:42.449  INFO 7108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-24 22:45:42.749  INFO 7108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 22:45:42.829  INFO 7108 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 22:45:42.879  WARN 7108 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 22:45:43.219  INFO 7108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 22:45:43.269  INFO 7108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2019-10-24 22:45:43.269  INFO 7108 --- [restartedMain] cn.coderzhx.blog2.Blog2Application       : Started Blog2Application in 4.4 seconds (JVM running for 5.907)
+2019-10-24 22:46:08.293  INFO 7108 --- [http-nio-8087-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1570608488,1570676885,1570760044] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-10-24 22:46:08.301  INFO 7108 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 22:46:08.301  INFO 7108 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 22:46:08.314  INFO 7108 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-10-24 22:46:08.385  INFO 7108 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 22:46:08.444  INFO 7108 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 22:47:51.793  INFO 7108 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.index', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 22:47:51.822  INFO 7108 --- [http-nio-8087-exec-5] cn.coderzhx.blog2.aspect.LogAspect       : Result : index
+2019-10-24 22:48:14.849  INFO 7108 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Request : {url='http://localhost:8087/about', ip='0:0:0:0:0:0:0:1', classMethod='cn.coderzhx.blog2.web.IndexController.about', args=[{pageBean=PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}, org.springframework.validation.BindingResult.pageBean=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, PageBean{currentPage=1, totalCount=null, pageSize=7, totalPage=null, index=null, list=null, word='null', title='null', typeId=null, tags='null'}]}
+2019-10-24 22:48:14.850  INFO 7108 --- [http-nio-8087-exec-1] cn.coderzhx.blog2.aspect.LogAspect       : Result : about
+2019-10-24 22:48:14.871 ERROR 7108 --- [http-nio-8087-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8087-exec-1] Exception processing template "about": An error happened during template parsing (template: "class path resource [templates/about.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/about.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1372)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "blog.content" (template: "about" - line 29, col 116)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "blog.content" (template: "about" - line 29, col 116)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'content' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 73 common frames omitted
+
+2019-10-24 22:48:14.873 ERROR 7108 --- [http-nio-8087-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/about.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'content' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1372)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

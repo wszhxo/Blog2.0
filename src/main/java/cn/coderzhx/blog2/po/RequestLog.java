@@ -2,6 +2,7 @@ package cn.coderzhx.blog2.po;
 
 import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 /**
@@ -9,7 +10,7 @@ import java.util.Arrays;
  * @create 2019-10-19-10
  */
 @Component
-public class RequestLog {
+public class RequestLog implements Serializable {
     private String url;//访问地址
     private String ip;//访问ip
     private String classMethod;//访问方法

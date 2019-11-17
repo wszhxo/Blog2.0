@@ -71,6 +71,8 @@ public class BlogController {
     //点击添加或者修改文章
     @PostMapping("/blogs")
     public String post(Blog blog, RedirectAttributes attributes) {
+
+
         if (blog.getId() == null) {//添加
             blogService.saveBlog(blog);
         } else {//修改
