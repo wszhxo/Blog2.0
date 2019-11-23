@@ -3,13 +3,13 @@
 <mapper namespace="cn.coderzhx.blog2.mapper.IpMapper">
 <!--清空表-->
     <delete id="deleteVisitCount">
-        delete  from t_visitCount
+        delete  from t_visitcount
     </delete>
 
     <insert id="addVisitCount" >
-        insert into t_visitCount values (#{ip},#{count})
+        insert into t_visitcount values (#{ip},#{count})
     </insert>
     <select id="getVisitCount" resultType="RequestLog">
-        select ip,ipcount from t_visitCount
+        select ip,ipcount from t_visitcount
     </select>
 </mapper>

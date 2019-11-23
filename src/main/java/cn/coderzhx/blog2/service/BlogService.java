@@ -24,6 +24,7 @@ public interface BlogService {
     void deleteBlog(Long id);
     Long countBlog(PageBean pageBean);
     Blog updateBlog(Blog blog);
+    Blog updateBlogViews(Blog blog);
 
     List<Blog> listLunboBlog();
 
@@ -33,4 +34,7 @@ public interface BlogService {
     HashMap<Long, Long> getNewBlogVisit();
 
     void cleanMap();
+
+
+
 }

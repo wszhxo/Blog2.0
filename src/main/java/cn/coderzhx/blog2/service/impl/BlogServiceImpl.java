@@ -50,6 +50,9 @@ public class BlogServiceImpl implements BlogService {
         return blogById;
     }
 
+
+
+
     @Override
     public List<Blog> listRecommendBlogTop(Integer size) {
         return blogMapper.listRecommendBlogTop(size);
@@ -102,6 +105,12 @@ public class BlogServiceImpl implements BlogService {
         blogMapper.updateBlog(blog);
         return blog;//不加这个缓存就是空的,必须返回
     }
+    //仅仅用于更新缓存
+    @CachePut(value  = "findBlogById", key = "#blog.id" )
+    public Blog updateBlogViews(Blog blog) {
+        return blog;
+    }
+
 
     @Override
     public List<Blog> listLunboBlog() {
@@ -135,14 +144,6 @@ public class BlogServiceImpl implements BlogService {
         for (Map.Entry<Long, Long> m : map.entrySet()) {
             //添加数据到数据库
             blogMapper.addViewsToDateBase(m.getKey(),m.getValue());
-            //还要更新缓存中的文章的访问次数
-            Blog blogById = getBlogById(m.getKey());
-            blogById.setViews(m.getValue()+blogById.getViews());
-            try {
-                blogIndex.updateIndex(blogById);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
         }
         map.clear();
     }

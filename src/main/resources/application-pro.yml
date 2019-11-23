@@ -28,7 +28,7 @@ lucene:
 
 # 上传文件存放
 file:
-  uploadfolder: /usr/upload
+  uploadfolder: /usr/upload/
 # 实体类路径,以及接口实现类
 mybatis:
   type-aliases-package: cn.coderzhx.blog2.po

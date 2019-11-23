@@ -22,7 +22,7 @@ public class QuartzConfig {
     @Bean
     public Trigger quartzTrigger(){
         SimpleScheduleBuilder scheduleBuilder = SimpleScheduleBuilder.simpleSchedule()
-//                .withIntervalInSeconds(1)  //设置时间周期单位秒
+//                .withIntervalInSeconds(10)  //设置时间周期单位秒
                 .withIntervalInHours(24)  //一天执行一次
 //                .withSchedule(CronScheduleBuilder.cronSchedule("* 30 10 ? * 1/5 2018"))
                 .repeatForever();

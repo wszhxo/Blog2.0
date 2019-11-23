@@ -251,7 +251,8 @@
 
 
   <script th:inline="javascript">
-
+    //设置不缓存,为了更新评论
+    $.ajaxSetup({cache:false});
     //用于移动端打开导航栏
     $('.menu.toggle').click(function () {
       $('.m-item').toggleClass('m-mobile-hide');
@@ -278,24 +279,6 @@
       on : 'click',
       position: 'left center'
     });
-    //微信出现
-    // $('.wechat').popup({
-    //   popup : $('.wechat-qr'),
-    //   position: 'left center'
-    // });
-
-
-    //生成二维码
-    // var serurl = /*[[#{blog.serurl}]]*/"127.0.0.1:8080";
-    // var url = /*[[@{/blog/{id}(id=${blog.id})}]]*/"";
-    // var qrcode = new QRCode("qrcode", {
-    //   text: serurl+url,
-    //   width: 110,
-    //   height: 110,
-    //   colorDark : "#000000",
-    //   colorLight : "#ffffff",
-    //   correctLevel : QRCode.CorrectLevel.H
-    // });
 
     //点击回到顶部
     $('#toTop-button').click(function () {
@@ -345,7 +328,7 @@
     });
 //异步加载评论
     $(function () {
-      $("#comment-container").load(/*[[@{/comments/{id}(id=${blog.id})}]]*/"comments/6");
+      $("#comment-container").load(/*[[@{/comments/{id}(id=${blog.id})}]]*/);
     });
 
 
@@ -370,6 +353,8 @@
         "content" : $("[name='content']").val()
       },function (responseTxt, statusTxt, xhr) {
 //        $(window).scrollTo($('#comment-container'),500);
+          $("#comment-container").load(/*[[@{/comments/{id}(id=${blog.id})}]]*/);
+
         clearContent();
       });
     }
@@ -391,7 +376,7 @@
       // $(window).scrollTo($('#comment-form'),500);
     }
 
-    
+
   </script>
 </body>
 </html>

@@ -15,7 +15,10 @@ public class WebPathFigurer implements WebMvcConfigurer {
     private String uploadfolder;
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/upload/**").addResourceLocations("file:///"+uploadfolder);
+//        registry.addResourceHandler("/upload/**").addResourceLocations("file:///"+uploadfolder);
+//        registry.addResourceHandler("/upload/**").addResourceLocations(uploadfolder);
+//        registry.addResourceHandler("/upload/**").addResourceLocations("file:/usr/upload/");
+        registry.addResourceHandler("/upload/**").addResourceLocations("file:"+uploadfolder);
     }
 
 }

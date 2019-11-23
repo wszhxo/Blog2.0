@@ -38,7 +38,7 @@ public class BlogController {
     public String blogs(Model model, PageBean pageBean) {
         model.addAttribute("page",blogService.listBlog(pageBean));//带分页的所有文章
         model.addAttribute("types", typeService.listTypeAndCount(-1));//分类
-        return "/admin/blogs";
+        return "admin/blogs";
     }
 
     //后台搜索以及分页功能,为什么要分出来呢,其实这个类似于ajax异步刷新

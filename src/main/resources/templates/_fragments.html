@@ -3,6 +3,10 @@
 <head th:fragment="head(title)">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Cache" content="no-cache">
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title th:replace="${title}">博客详情</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
 <!--  <link rel="stylesheet" href="../static/css/semantic.min.css" th:href="@{/css/semantic.min.css}">-->
@@ -19,6 +23,10 @@
   <script  th:src="@{/js/jquery-1.11.0.min.js}"></script>
   <link rel="stylesheet" href="/css/me.css" th:href="@{/css/green.css}" id="cssfile">
   <script th:src="@{/js/scrollReveal.js}"></script>
+
+
+
+
 <!--百度统计-->
   <script>
     var _hmt = _hmt || [];
@@ -67,12 +75,15 @@
       background: none repeat 0 0 #F6F6F6;
     }
   </style>
+
 </head>
+
 <body>
 
 
 <!--导航-->
 <nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" id="nav1">
+
   <div class="ui container">
     <div class="ui inverted secondary stackable menu">
       <h2 class="ui grey header item" id="logo" style="color: #ffffff!important;">coderzhx</h2>
@@ -95,6 +106,8 @@
   <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
     <i class="sidebar icon"></i>
   </a>
+
+
 </nav>
 
 
@@ -137,6 +150,7 @@
   <script src="../static/lib/tocbot/tocbot.min.js" th:src="@{/lib/tocbot/tocbot.min.js}"></script>
   <script src="../static/lib/qrcode/qrcode.min.js" th:src="@{/lib/qrcode/qrcode.min.js}"></script>
   <script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+
 </th:block>
 
 </body>
