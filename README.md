@@ -1,6 +1,6 @@
 # 博客2.0版本
 
-前台 https://coderzhx.cn/ 
+前台 https://coderzhx.cn/ （已经下架了，因为我喜欢上了solo博客和hexo静态化博客）
 
 ![](https://img.shields.io/badge/SpringBoot-2.1.5-green.svg) ![](https://img.shields.io/badge/Mybatis--blue.svg)  ![](https://img.shields.io/badge/semanticUI--yellow.svg) ![](https://img.shields.io/badge/Lunece--green.svg)  ![](https://img.shields.io/badge/Mysql-5.7-blue.svg) ![](https://img.shields.io/badge/Maven--blue.svg)
 
